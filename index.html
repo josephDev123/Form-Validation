@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="Joseph_dev">
+	<meta name="keyword" content="">
+	<meta name="viewport" content="device-width=width initial-scale =1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form Validation </title>
+</head>
+<body>
+
+	<div id="container">
+		<h2>Register Us</h2>
+		<form id="form1" class="form_style" method="post">
+			<div class="form-control">
+				<label for="username">Username</label>
+				<input type="text" id="username" name="username" placeholder="Enter your Username">
+				<small>Error messsage</small>
+			</div>
+
+			<div class="form-control">
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" placeholder="Enter your Username">
+				<small>Error messsage</small>
+			</div>
+
+
+			<div class="form-control">
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password">
+				<small>Error messsage</small>
+			</div>
+
+			<div class="form-control">
+				<label for="confirm_password">Confirm Password</label>
+				<input type="password" id="confirm_password" name="confirm_password">
+				<small>Error messsage</small>
+			</div>
+
+			<div class="form-control">
+				<button type="submit" name="submit" class="submit_style">Submit</button>
+			</div>
+			
+		</form>
+	</div>
+	
+	<script type="text/javascript" src="validate.js"></script>
+
+</body>
+</html>
