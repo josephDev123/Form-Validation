@@ -1,4 +1,4 @@
-#Form Validation
+## Form Validation
 
-Validation of Form with Vanilla JavaScript.
+Validation and authentification of Form with Vanilla JavaScript.
 

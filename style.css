@@ -23,6 +23,7 @@ body{
 	border-radius: 4px;
 	padding: 40px 30px;
 	box-shadow: 6px 6px 4px #d3d3d3;
+	height: 100vh;
 
 }
 
@@ -57,6 +58,7 @@ body{
 
 .form-control small{
 	margin-bottom: 10px;
+	visibility: hidden;
 }
 
 .form-control input :focus{
@@ -73,9 +75,9 @@ body{
 	border-color: #0de592; 
 }
 
-.form-control small{
+/* .form-control small{
 	visibility: hidden;
-}
+} */
 
 .form-control.error small{
 	color: red; 
